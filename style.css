@@ -9,22 +9,19 @@
     text-align:center;
     margin:0;
 }
-.col-md-12{
-    background: white;
-}
 
 .headerside{
     background: white;
 }
 
-.col-md-10{
-    background: white;
-    padding: 20px;
+.navigation{
+background: white;
 }
 
-#maincontent{
-background: white;
-margin-top: 40px;
+.maincontent{
+    background: white;
+    margin-bottom: 80px;
+    margin-top: 30px;
 }
 
 body{
@@ -57,8 +54,6 @@ body{
     padding: 10px;
 }
 
-
-
 h2{
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
@@ -75,8 +70,9 @@ hr{
 }
 
 .footer{
-    position:fixed;
+    position: fixed;
     bottom:0;
+    left: 0;
     text-align: center;
     width: 100%;
     background:#666666;
@@ -86,7 +82,7 @@ hr{
     padding-top: 30px;
     font-size: 12px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin-left: 0;
+    margin-left: 0; 
 
 }
 
@@ -118,8 +114,9 @@ hr{
 
 .btn {
     background: #4aaaa5;
+    margin-bottom: 10px;
 }
 
-.col{
-    padding: 0;
+.topbar{
+    background: white;
 }
